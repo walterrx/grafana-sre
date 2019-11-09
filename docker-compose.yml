@@ -4,7 +4,7 @@ services:
     image: grafana/grafana:5.1.0
     environment:
       - GF_SERVER_ROOT_URL=http://localhost
-      - GF_SERVER_ADMIN_PASSWORD=123456
+      - GF_SECURITY_ADMIN_PASSWORD=123456
     ports:
       - 3000:3000
     user: "104"
